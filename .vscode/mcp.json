@@ -1,0 +1,15 @@
+{
+  "name": "puppeteer-playwright-brave-test",
+  "description": "Test project comparing Puppeteer and Playwright automation with Brave Search",
+  "manifest": {
+    "capabilities": {
+      "web": {
+        "browsers": ["chrome", "firefox", "edge"]
+      }
+    }
+  },
+  "version": "1.0.0",
+  "runtime": {
+    "min": "1.0.0"
+  }
+}
