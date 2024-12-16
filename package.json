@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer-playwright-brave-test",
+  "version": "1.0.0",
+  "description": "Test project comparing Puppeteer and Playwright automation with Brave Search",
+  "main": "index.js",
+  "scripts": {
+    "test:puppeteer": "node puppeteerTest.js",
+    "test:playwright": "node playwrightTest.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "playwright",
+    "automation",
+    "testing",
+    "brave-search"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "playwright": "^1.40.0"
+  }
+}
